@@ -1,0 +1,17 @@
+{
+  "name": "the-hollow-crown",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A browser-playable dark fantasy, turn-based dungeon RPG.",
+  "scripts": {
+    "dev": "node scripts/serve.js . 5173",
+    "build": "node scripts/build.js",
+    "preview": "node scripts/serve.js dist 4173",
+    "test": "node --test tests/*.test.js",
+    "check": "npm test && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
